@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">infoConvid-19</string>
+    <string name="inicio">Inicio</string>
+    <string name="casosgt">CasosGT</string>
+    <string name="globales">Globales</string>
+    <string name="test">Test</string>
 </resources>
