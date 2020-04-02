@@ -15,7 +15,7 @@
         android:id="@+id/chartGT"
         android:title="@string/casosgt"
         android:icon="@drawable/ic_chart"
-        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_backgroundColor="@color/colorAccent2"
         app:cnb_iconColor="#fff"
         app:cnb_textColor="#fff" />
 
@@ -23,7 +23,7 @@
         android:id="@+id/world"
         android:title="@string/globales"
         android:icon="@drawable/ic_world"
-        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_backgroundColor="@color/colorAccent3"
         app:cnb_iconColor="#fff"
         app:cnb_textColor="#fff" />
 
@@ -31,7 +31,7 @@
         android:id="@+id/test"
         android:title="@string/test"
         android:icon="@drawable/ic_test"
-        app:cnb_backgroundColor="@color/colorAccent"
+        app:cnb_backgroundColor="@color/colorAccent4"
         app:cnb_iconColor="#fff"
         app:cnb_textColor="#fff" />
 
