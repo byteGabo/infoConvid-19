@@ -7,13 +7,19 @@
     tools:context=".GlobalFragment"
     android:background="@color/colorAccent3">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_centerInParent="true"
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rvCovidCountry"
+       tools:listitem="@layout/item_list_covid_country"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progress_circular_country"
+        android:indeterminateDrawable="@drawable/progress"
+        android:indeterminate="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Global"
-        android:textSize="26sp"
-        android:textColor="@android:color/white"/>
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+
 
 </RelativeLayout>
